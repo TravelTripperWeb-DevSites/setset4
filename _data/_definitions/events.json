@@ -9,16 +9,26 @@
       "required": true,
       "type":"text"
     },
+    
+    "start_date":
+    {
+      "type": "datetime"
+    },
+    
+    "last_registration_day": {
+      "type": "date"
+    },
+    
     "meta_description":
     {
-    "type":"text"
+      "type":"text"
     },
     "category":
     {
       "label": "Choose Category",
       "type":"model",
-      "display_field": "title", 
-      "model_name":"event_category"
+      "display_field": "name", 
+      "model_name":"simple"
     },
     "schedule":
     {
@@ -60,48 +70,6 @@
     },
    
     
-    "g_image1":
-    {
-     "required": true,
-      "type": "image",
-      "label": "Gallery Image 1"
-
-    },
-    "g_image2":
-    {
-
-      "type": "image",
-      "label": "Gallery Image 2"
-
-    },
-    "g_image3":
-    {
-
-      "type": "image",
-      "label": "Gallery Image 3"
-
-    },
-    "g_image4":
-    {
-
-      "type": "image",
-      "label": "Gallery Image 4"
-
-    },
-    "g_image5":
-    {
-
-      "type": "image",
-      "label": "Gallery Image 5"
-
-    },
-    "g_image6":
-    {
-
-      "type": "image",
-      "label": "Gallery Image 6"
-
-    },
     "sort_order":
     {
       "type": "integer",
