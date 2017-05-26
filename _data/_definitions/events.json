@@ -2,7 +2,8 @@
     "title":
     {
       "required": true,
-      "label": "Name"
+      "label": "Name",
+      "localizable": true
     },
     "event_seo_title":
     {
@@ -21,7 +22,8 @@
     
     "meta_description":
     {
-      "type":"text"
+      "type":"text",
+      "localizable": true
     },
     "category":
     {
@@ -39,7 +41,8 @@
     {
       "required": true,
       "type": "richtext",
-      "label": "Events List Page Description"
+      "label": "Events List Page Description",
+      "localizable": true
     },
     "long_description":
     {
