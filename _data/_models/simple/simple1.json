@@ -1,10 +1,11 @@
 {
   "name_localized": {
-    "en": "Test",
-    "es": "Prueba"
+    "en": "Exam",
+    "es": "Prueba!"
   },
   "order": 1,
   "name": {
-    "en": "AAA"
+    "en": "Exam",
+    "es": "Prueba!"
   }
 }
