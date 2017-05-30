@@ -1,0 +1,23 @@
+{
+  "last_registration_day": "Fri May 26 2017 00:00:00 GMT-0400 (EDT)",
+  "event_seo_title": "SEO Title",
+  "start_date": null,
+  "category": "simple2",
+  "schedule": "All day",
+  "long_description": "<p>Test</p>",
+  "url_friendly_name": "Test",
+  "sort_order": 1,
+  "thumb_image": {
+    "url": "https://s3.amazonaws.com/cdn.dev-traveltripper.info/site-assets/1_83_326/media/2017-05-26-115416/IMG-0030.jpg"
+  },
+  "title_localized": {
+    "en": "Event One",
+    "es": "Test!"
+  },
+  "meta_description_localized": {
+  },
+  "short_description_localized": {
+    "en": "<p>Test</p>",
+    "es": "<p>Prueba</p>"
+  }
+}

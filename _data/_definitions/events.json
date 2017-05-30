@@ -1,0 +1,81 @@
+{
+    "title":
+    {
+      "required": true,
+      "label": "Name",
+      "localizable": true
+    },
+    "event_seo_title":
+    {
+      "required": true,
+      "type":"text"
+    },
+    
+    "start_date":
+    {
+      "type": "datetime"
+    },
+    
+    "last_registration_day": {
+      "type": "date"
+    },
+    
+    "meta_description":
+    {
+      "type":"text",
+      "localizable": true
+    },
+    "category":
+    {
+      "label": "Choose Category",
+      "type":"model",
+      "display_field": "name", 
+      "model_name":"simple"
+    },
+    "schedule":
+    {
+      "required": true,
+      "label": "Schedule"
+    },
+    "short_description":
+    {
+      "required": true,
+      "type": "richtext",
+      "label": "Events List Page Description",
+      "localizable": true
+    },
+    "long_description":
+    {
+      "required": true,
+      "type": "richtext",
+      "label": "Events Detail Page Description"
+    },
+    "url_friendly_name":
+    {
+      "required": true,
+      "type": "text",
+      "label": "Events List Page URL"
+    },
+    "website_url":
+    {
+      
+      "type": "url",
+      "label": "Events Website URL"
+    },
+
+
+    "thumb_image":
+    {
+      "required": true,
+      "type": "image",
+      "label": "Events List Page Thumb Image"
+
+    },
+   
+    
+    "sort_order":
+    {
+      "type": "integer",
+      "required": true
+    }
+}
